@@ -1,0 +1,247 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Features</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"> <span>max</span>wheels </a>
+    
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./vehicles.html">vehicles</a>
+            <a href="./services.html">services</a>
+            <a href="./features.html">featured</a>
+            <a href="./contact-us.html">contact</a>
+        </nav>
+    
+        
+    
+    </header> 
+    
+{% block content %}
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>featured</span> cars </h1>
+    
+        <div class="swiper featured-slider">
+    
+           <div class="swiper-wrapper">
+    
+                <div class="swiper-slide box">
+                    <img src="{% static 'car-1.png' %}" alt="">
+                    <div class="content">
+                        <h3>Mercedes Benz</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">₹ 500/Hr</div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper featured-slider">
+     
+             <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="{% static 'car-2.png' %}" alt="">
+                    <div class="content">
+                        <h3>Morries Garage</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">₹ 400/Hr</div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper featured-slider">
+     
+             <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'car-3.png' %}" alt="">
+                    <div class="content">
+                        <h3>Ford</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">₹ 300/Hr</div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper featured-slider">
+     
+             <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'car-4.png' %}" alt="">
+                    <div class="content">
+                        <h3>Audi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="price">₹ 500/Hr</div>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+           <div class="swiper-pagination"></div>
+    
+        </div>
+    
+        <div class="swiper featured-slider">
+    
+            <div class="swiper-wrapper">
+     
+                 <div class="swiper-slide box">
+                     <img src="{% static 'car-5.png' %}" alt="">
+                     <div class="content">
+                         <h3>KIA</h3>
+                         <div class="stars">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="price">₹ 200/Hr</div>
+                         <a href="#" class="btn">check out</a>
+                     </div>
+                 </div>
+                </div>
+    
+                <div class="swiper-pagination"></div>
+         
+             </div>
+         
+             <div class="swiper featured-slider">
+         
+                 <div class="swiper-wrapper">
+                 <div class="swiper-slide box">
+                     <img src="{% static 'car-6.png' %}" alt="">
+                     <div class="content">
+                         <h3>Honda</h3>
+                         <div class="stars">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="price">₹ 100/Hr</div>
+                         <a href="#" class="btn">check out</a>          
+                     </div>
+                 </div>
+                </div>
+    
+                <div class="swiper-pagination"></div>
+         
+             </div>
+         
+             <div class="swiper featured-slider">
+         
+                 <div class="swiper-wrapper">
+                 <div class="swiper-slide box">
+                     <img src="{% static 'car-7.png' %}" alt="">
+                     <div class="content">
+                         <h3>KIA</h3>
+                         <div class="stars">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="price">₹ 200/Hr</div>
+                         <a href="#" class="btn">check out</a>
+                     </div>
+                 </div>
+                </div>
+    
+                <div class="swiper-pagination"></div>
+         
+             </div>
+         
+             <div class="swiper featured-slider">
+         
+                 <div class="swiper-wrapper">
+                 <div class="swiper-slide box">
+                     <img src="{% static 'car-8.png' %}" alt="">
+                     <div class="content">
+                         <h3>Chevrolet</h3>
+                         <div class="stars">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="price">₹ 100/Hr</div>
+                         <a href="#" class="btn">check out</a>
+                     </div>
+                 </div>
+     
+            </div>
+     
+            <div class="swiper-pagination"></div>
+     
+         </div>
+    
+    </section>
+    
+</body>
+</html>
+
+{% endblock %}

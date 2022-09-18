@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Vehicles</title>
+</head>
+<body>
+    
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"> <span>max</span>wheels </a>
+    
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./vehicles.html">vehicles</a>
+            <a href="./services.html">services</a>
+            <a href="./features.html">featured</a>
+            <a href="./contact-us.html">contact</a>
+        </nav>
+    
+        
+    
+    </header> 
+
+
+
+
+{% block content %}
+    {% load static %}
+    <section class="vehicles" id="vehicles">
+    
+        <h3 class="heading"> popular <span>vehicle</span></h3>
+
+                <div class="swiper vehicles-slider">
+    
+                    <div class="swiper-wrapper">
+<!--                       -->
+                <div class="swiper-slide box">
+<!--                    <img src="{% static 'vehicle-1.png' %} alt="not found">-->
+<!--                    <div class="content">-->
+<!--                        <h3>Porsche 911</h3>-->
+<!--                        <div class="price"> <span>price : </span> ₹ 12000/day</div>-->
+<!--                        <p>-->
+<!--                            new-->
+<!--                            <span class="fas fa-circle"></span> 2019-->
+<!--                            <span class="fas fa-circle"></span> automatic-->
+<!--                            <span class="fas fa-circle"></span> petrol-->
+<!--                            <span class="fas fa-circle"></span> 183mph-->
+<!--                        </p>-->
+<!--                        <a href="#" class="btn">check out</a>-->
+<!--                    </div>-->
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+            
+             <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-7.png' %}" alt="">
+                    <div class="content">
+                        <h3>Mercedes Benz GLE Coupe</h3>
+                        <div class="price"> <span>price : </span> ₹ 9000/day</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2020
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+              
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+     
+             <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-3.png' %}" alt="">
+                    <div class="content">
+                        <h3>Porsche Panamera Turbo</h3>
+                        <div class="price"> <span>price : </span> ₹ 9000/day</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2018
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+     
+             <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-8.png' %}" alt="">
+                    <div class="content">
+                        <h3>Jaguar F-TYPE </h3>
+                        <div class="price"> <span>price : </span> ₹ 10000/day </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+               
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+     
+             <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-5.png' %}" alt="">
+                    <div class="content">
+                        <h3> RK Spyder </h3>
+                        <div class="price"> <span>price : </span>  ₹ 9000/day </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2005
+                            <span class="fas fa-circle"></span> manual
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+     
+             <div class="swiper-wrapper"> 
+
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-9.png' %}" alt="">
+                    <div class="content">
+                        <h3>Volkswagen Beetle  </h3>
+                        <div class="price"> <span>price : </span>  ₹ 4000/day </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2010
+                            <span class="fas fa-circle"></span> manual
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination"></div>
+     
+         </div>
+     
+         <div class="swiper vehicles-slider">
+     
+             <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="{% static 'vehicle-4.png' %}" alt="">
+                    <div class="content">
+                        <h3>Porsche Cayman 718s</h3>
+                        <div class="price"> <span>price : </span>  ₹ 9000/day </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                          <a href="#" class="btn">check out</a>                    
+                    </div>
+                
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+{% endblock %}
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
